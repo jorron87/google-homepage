@@ -3,3 +3,37 @@ p {
     color: blue;
     font-size: 30px;
 }
+#logo{
+    margin: 50px;
+    
+}
+#containerver {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+
+  }
+  #content {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    border-color: rgb(207, 59, 59);
+    border: 1px;
+    border-style: solid;
+    width: 400px;
+    border-radius: 20px;
+
+  }
+
+  #inputbox {
+      display: block;
+      margin: auto;
+      width: 300px;
+      height: 30px;
+      border: 0px;
+      font-family: 'Roboto', sans-serif;
+      
+  }
