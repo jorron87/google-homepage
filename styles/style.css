@@ -1,7 +1,13 @@
 
-p {
-    color: blue;
-    font-size: 30px;
+
+#topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
 }
 #logo{
     margin: 50px;
@@ -13,6 +19,8 @@ p {
     flex-direction: column;
     align-items: center; 
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    
 
   }
   #content {
@@ -21,11 +29,26 @@ p {
     align-items: center; 
     justify-content: center;
     border: 1px solid rgb(202, 202, 202);
-    width: 400px;
+    width: 500px;
+    height: 40px;
     border-radius: 20px;
 
   }
 
+  #button-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    margin: 30px;
+    width: auto;
+    padding: 30px;
+   }
+
+  button{
+      border-style: none;
+      color: rgb(71, 71, 71);
+  }
   #inputbox {
       display: block;
       margin: auto;
