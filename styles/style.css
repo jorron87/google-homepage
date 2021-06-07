@@ -20,9 +20,7 @@ p {
     flex-direction: row;
     align-items: center; 
     justify-content: center;
-    border-color: rgb(207, 59, 59);
-    border: 1px;
-    border-style: solid;
+    border: 1px solid rgb(202, 202, 202);
     width: 400px;
     border-radius: 20px;
 
@@ -31,9 +29,16 @@ p {
   #inputbox {
       display: block;
       margin: auto;
-      width: 300px;
+      width: 350px;
       height: 30px;
       border: 0px;
       font-family: 'Roboto', sans-serif;
-      
+      border-style: none;
+      outline-style: none;
+    }
+   #searchicons {
+       color: rgb(134, 134, 134);
+       margin-left: 5px;
+       margin-right: 5px;
+   } 
   }
