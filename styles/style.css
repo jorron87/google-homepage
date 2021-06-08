@@ -1,15 +1,43 @@
 
 
 #topbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    padding: 20px;
-    margin: 20px;
+  position: fixed;
+  top: 0;
 
 }
-#logo{
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+li{
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  }
+
+li a{
+  text-decoration: none;
+  color: rgb(71, 71, 71)
+  
+}  
+#logon{
+  background-color: rgb(65, 100, 255);
+  color: aliceblue;
+  height: 30px;
+  padding: 7px 20px 7px 20px;
+  border-radius: 4px;
+  text-align: center;
+
+}
+
+  #logo{
     margin: 50px;
     
 }
@@ -58,6 +86,7 @@
       font-family: 'Roboto', sans-serif;
       border-style: none;
       outline-style: none;
+      font-size: 25px;
     }
    #searchicons {
        color: rgb(134, 134, 134);
