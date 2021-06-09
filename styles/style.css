@@ -1,5 +1,141 @@
+/* for mobile */
+@media only screen and (max-width: 600px) {
+
+  topbar{
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+  
+  }
+  
+  #footer {
+    width: 100%;
+    border-top: 1px solid rgb(202, 202, 202);
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+  
+  }
+  
+  .footerlist {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
+  
+  }
+   
+  li{
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    }
+  
+  li a{
+    text-decoration: none;
+    color: rgb(71, 71, 71)
+    
+  }  
+  #logon{
+    background-color: rgb(65, 100, 255);
+    color: aliceblue;
+    height: 30px;
+    padding: 7px 20px 7px 20px;
+    border-radius: 4px;
+    text-align: center;
+  
+  }
+  
+    #logo{
+      margin: 50px;
+      
+  }
+  #logoandsearch {
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+      font-family: 'Roboto', sans-serif;
+      
+  
+    }
+    #searchbar {
+      display: flex;
+      flex-direction: row;
+      align-items: center; 
+      justify-content: center;
+      border: 1px solid rgb(202, 202, 202);
+      width: 50vw;
+      max-width: 500px;
+      height: 40px;
+      border-radius: 20px;
+  
+    }
+  
+    #button-row {
+      display: flex;
+      flex-direction: row;
+      align-items: center; 
+      justify-content: center;
+      margin: 30px;
+      width: auto;
+      padding: 30px;
+     }
+  
+    button{
+        border-style: none;
+        color: rgb(71, 71, 71);
+    }
+    #inputbox {
+        display: block;
+        margin: auto;
+        width: 70%;
+        max-width: 350px;
+        height: 30px;
+        border: 0px;
+        font-family: 'Roboto', sans-serif;
+        border-style: none;
+        outline-style: none;
+        font-size: 25px;
+      }
+     #searchicons {
+         color: rgb(134, 134, 134);
+         margin-left: 5px;
+         margin-right: 5px;
+     } 
+    #rightfooter{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        }
+    #centerfooter{
+        position: fixed;
+        bottom: 0;
+        left: 40%;
+        justify-content: center;
+        
+      }
+    #leftfooter{
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }  
+  
 
 
+}
+
+/* for desktop */
+@media only screen and (min-width: 601px) {
 #topbar{
   position: fixed;
   top: 0;
@@ -16,6 +152,10 @@
 #footer {
   width: 100%;
   border-top: 1px solid rgb(202, 202, 202);
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 40px;
 
 }
 
@@ -55,8 +195,8 @@ li a{
     margin: 50px;
     
 }
-#containerver {
-    height: 100vh;
+#logoandsearch {
+    height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -65,13 +205,14 @@ li a{
     
 
   }
-  #content {
+  #searchbar {
     display: flex;
     flex-direction: row;
     align-items: center; 
     justify-content: center;
     border: 1px solid rgb(202, 202, 202);
-    width: 500px;
+    width: 30vw;
+    max-width: 500px;
     height: 40px;
     border-radius: 20px;
 
@@ -94,7 +235,8 @@ li a{
   #inputbox {
       display: block;
       margin: auto;
-      width: 350px;
+      width: 70%;
+      max-width: 350px;
       height: 30px;
       border: 0px;
       font-family: 'Roboto', sans-serif;
@@ -107,5 +249,21 @@ li a{
        margin-left: 5px;
        margin-right: 5px;
    } 
-
-  }
+  #rightfooter{
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      }
+  #centerfooter{
+      position: fixed;
+      bottom: 0;
+      left: 40%;
+      justify-content: center;
+      
+    }
+  #leftfooter{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }  
+}
