@@ -1,5 +1,5 @@
 /* for mobile */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 622px) {
 
   #topbar{
     position: fixed;
@@ -20,7 +20,7 @@
     display: flex;
     position: fixed;
     bottom: 0;
-    height: 150px;
+    height: 100px;
     width: 100%;
   
   }
@@ -32,6 +32,9 @@
     list-style-type: none;
     align-items: baseline;
     flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+
   
   }
    
@@ -132,7 +135,7 @@
 }
 
 /* for desktop */
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 623px) {
 #topbar{
   position: fixed;
   top: 0;
