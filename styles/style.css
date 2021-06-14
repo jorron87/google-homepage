@@ -1,7 +1,7 @@
 /* for mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 
-  topbar{
+  #topbar{
     position: fixed;
     top: 0;
     list-style-type: none;
@@ -9,7 +9,7 @@
     padding: 0;
     display: inline-flex;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     align-items: center;
   
   }
@@ -20,16 +20,18 @@
     display: flex;
     position: fixed;
     bottom: 0;
-    height: 40px;
+    height: 150px;
+    width: 100%;
   
   }
   
   .footerlist {
-    display: inline-flex;
+    display: flex;
     margin: 0;
     padding: 0;
     list-style-type: none;
-    align-items: center;
+    align-items: baseline;
+    flex-wrap: wrap;
   
   }
    
@@ -74,7 +76,7 @@
       align-items: center; 
       justify-content: center;
       border: 1px solid rgb(202, 202, 202);
-      width: 50vw;
+      width: 90vw;
       max-width: 500px;
       height: 40px;
       border-radius: 20px;
@@ -113,21 +115,15 @@
          margin-right: 5px;
      } 
     #rightfooter{
-        position: fixed;
-        right: 0;
-        bottom: 0;
+       
         }
     #centerfooter{
-        position: fixed;
-        bottom: 0;
-        left: 40%;
-        justify-content: center;
+        
         
       }
     #leftfooter{
-      position: fixed;
-      bottom: 0;
-      left: 0;
+    
+
     }  
   
 
@@ -135,7 +131,7 @@
 }
 
 /* for desktop */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 901px) {
 #topbar{
   position: fixed;
   top: 0;
@@ -165,6 +161,7 @@
   padding: 0;
   list-style-type: none;
   align-items: center;
+
 
 }
 
@@ -211,7 +208,7 @@ li a{
     align-items: center; 
     justify-content: center;
     border: 1px solid rgb(202, 202, 202);
-    width: 30vw;
+    width: 70vw;
     max-width: 500px;
     height: 40px;
     border-radius: 20px;
